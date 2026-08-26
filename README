@@ -1,0 +1,36 @@
+Coupon Acceptance Analysis
+
+Overview
+
+This project explores the characteristics associated with accepting location-based driving coupons. The dataset contains 12,684 survey responses describing coupon type, time, weather, passengers, destination, and prior customer behavior.
+Overall, 56.8% of coupons were accepted.
+
+Key Findings
+
+Finding for Coffee House Coupon Acceptance Rate:
+1. The overall Coffee House coupon acceptance rate was approximately 49.9%. 
+Prior coffee-house behavior showed the strongest relationship with acceptance. 
+Drivers who visited coffee houses more than once per month accepted approximately 66.0% of coupons, 
+compared with only 35.0% among those who visited once per month or less.
+2. Acceptance was highest around 10 AM (64.1%) and 2 PM (54.8%), while evening acceptance was approximately 41–42%. 
+Drivers traveling with friends (59.7%) or a partner (57.0%) accepted coupons more frequently than 
+those traveling alone (43.8%). 
+3. Coupons with a one-day expiration (58.4%) were also accepted considerably more often 
+than coupons expiring in two hours (43.2%).
+4. The relationship between coffee-house visit frequency and coupon acceptance was statistically significant (p<0.001). 
+This suggests that prior coffee-house behavior is strongly associated with coupon acceptance
+
+Actionable Items:
+1. Prioritize frequent coffee-house customers. This is the strongest observed segmentation variable: 
+roughly 66% acceptance versus 35% for infrequent customers.
+2. Favor 10 AM and 2 PM delivery. These periods show substantially higher acceptance than evening hours.
+3. Use longer expiration windows. One-day coupons perform considerably better than two-hour coupons.
+4. Consider social context. Customers traveling with friends or partners show higher acceptance than 
+those traveling alone.
+
+Next steps and Recommendations:
+The next step would be to evaluate these variables together rather than one at a time. 
+A classification model could estimate which factors remain important after accounting for the others. 
+It would also be useful to test interactions—for example, 
+whether the advantage of a 10 AM coupon is especially strong among frequent 
+coffee-house customers—and validate the findings on new data before using them for real-world targeting.
